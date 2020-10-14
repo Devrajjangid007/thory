@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.benner{
+    width: 100%;
+    background-image: url(..//img/dd.jpg);
+    
+}
+.header{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.header p{
+    color: white;
+    font-size: 21px;
+    float: left;
+    font-weight: 500;
+
+
+}
+.header ul{
+    float: right;
+    color: white;
+}
+.header li{
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+    font-weight: 200;
+    
+}
+.benner h1{
+    clear: both;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+    padding-top: 50px;
+}
+.benner p{
+    color: rgb(209, 209, 209);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+.secend-part{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+.section{
+    width: 60%;
+    margin: 0 auto;
+}
+.box{
+    width: 28%;
+    float: left;
+    margin-right: 40px;
+    padding: 10px;
+}
+.box h2{
+    color: rgb(83, 133, 193);
+    font-weight: 300;
+    line-height: 35px;
+}
+.box p{
+    color: rgb(83, 133, 193);
+    line-height: 30px;
+}
+.bord{
+    border-right: 1px solid rgb(189, 189, 189);
+}
+.big-button{
+    width: 100px;
+    border: 0;
+    color: white;
+    background-color: rgb(83, 133, 193);
+    font-size: 20px;
+    padding: 12px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*team box are start*************/
+
+.team{
+    width: 100%;
+    background-color: rgb(83, 133, 193);
+    
+    
+}
+.team h1{
+    padding-top: 50px;
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+.team p{
+    font-size: 16px;
+    font-weight: 100;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.team-mamber{
+    width: 60%;
+    margin: 0 auto;
+}
+.team-list{
+    width: 20%;
+    float: left;
+    margin-left: 53px;
+    border: 1px solid rgb(160, 160, 160);
+    margin-bottom: 100px;
+
+}
+.team-list img{
+    width: 70%;
+    border-radius: 100%;
+    margin-left: 16%;
+    margin-top: 16%;
+    
+}
+.team-list h1{
+    font-size: 28px;
+    padding-top: 0;
+    
+}
+.team-list p{
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+.three-box{
+    width: 100%;
+    color: rgb(83, 133, 193);
+}
+.three-box h1{
+    font-size: 60px;
+    font-weight: 100;
+    padding-top: 90px;
+    text-align: center;
+    margin: 0;
+}
+.three-box p{
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.three-img{
+    width: 60%;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+    width: 45%;
+}
+
+.right{
+    float: right;
+    width: 45%;
+}
+.left h1{
+    font-size: 25px;
+    color: rgb(83, 133, 193);
+    text-align: left;
+    font-weight: 200;
+    padding: 20px 20px 20px 0;
+
+}
+
+.left p{
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px; 
+}
+.left img{
+    width: 100%;
+}
+
+
+.right h1{
+    font-size: 25px;
+    color: rgb(83, 133, 193);
+    text-align: left;
+    font-weight: 200;
+    padding: 20px 20px 20px 0;
+}
+
+.right p{
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;  
+}
+.right img{
+    width: 100%;
+}
+
+
+
+hr{
+    width: 60%;
+    margin: 50px auto;
+    
+}
+
+.footer{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(83, 133, 193);
+    margin-bottom: 50px;
+    
+}
+
+
+@media only screen and (max-width:600px){
+    .header p {
+       margin-left: 10px;
+       margin-top: 10px;
+    }
+    
+    
+    
+    
+    .secend-part .section .box{
+        width: 100%;
+        margin-bottom: 100px;
+        border: 1px solid gray;
+        padding: 20px;
+        text-align: center;
+    }
+    .team-mamber .team-list{
+        width: 80%;
+        clear: both;
+
+    }
+    .left{
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+        clear: both;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .footer span{
+        font-size: 25px;
+    }
+}
+
+
+
+
